@@ -23,12 +23,11 @@ By the end of this session, learners will be able to:
 
 | Time | Topic |
 |------|-------|
-| 10 min | Environment orientation & dataset introduction |
-| 35 min | Intro to pandas: loading, inspecting, selecting |
-| 40 min | Data cleaning & transformation |
-| 20 min | Grouping & aggregation with `.groupby()` |
-| 10 min | Bonus: seaborn visualization |
-| 5 min  | Wrap-up & resources |
+| 20 min | Conceptual overview (slides) |
+| 15 min | Live environment setup |
+| 70 min | Hands-on notebook: pandas, cleaning, groupby, seaborn |
+| 12 min | Script demo: `analysis.py` |
+| 3 min  | Wrap-up & resources |
 
 **Research question we answer:** *Does normalized brain volume differ by dementia rating in the OASIS-1 dataset?*
 
@@ -58,23 +57,23 @@ cd python2
 
 ```bash
 # macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 
 # Windows
-python -m venv venv
-venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 ### 4. Install dependencies
 
 ```bash
-pip install pandas seaborn matplotlib jupyter
+pip install -r requirements.txt
 ```
 
 ### 5. Open the notebook
 
-Open `python2_workshop.ipynb` in Positron and select your `venv` kernel.
+Open `python2_workshop.ipynb` in Positron and select your `.venv` kernel.
 
 ---
 
@@ -83,9 +82,12 @@ Open `python2_workshop.ipynb` in Positron and select your `venv` kernel.
 ```
 python2/
 ├── python2_workshop.ipynb        # Main workshop notebook
+├── analysis.py                   # Standalone script for end-of-class demo
+├── requirements.txt              # Python dependencies
 ├── data/
 │   ├── oasis_cross-sectional.csv # Raw OASIS-1 dataset
 │   └── oasis_cleaned.csv         # Cleaned dataset (produced during workshop)
+├── outputs/                      # Script output directory (PNG plots)
 └── docs/
     ├── python2_workshop_slides.html  # Slide deck (open in any browser)
     ├── python2_workshop_slides.pptx  # PowerPoint version
