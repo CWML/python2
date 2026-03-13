@@ -1,4 +1,4 @@
-# Cleaning and Summarizing Data with pandas (Python Part 2)
+# Cleaning and Summarizing Data with pandas (Python 2)
 
 **Cushing/Whitney Medical Library — Yale University**
 
