@@ -1,9 +1,22 @@
 # Cleaning and Summarizing Data with pandas (Python 2)
 
-**Cushing/Whitney Medical Library — Yale University**
+Move beyond the basics and start analyzing real-world research data.
 
-A 2-hour hands on coding workshop for students, staff, researchers, and faculty. This course builds directly on [Python 1](https://github.com/CWML/python1) and introduces local Python development, pandas for data analysis, and seaborn for visualization — using a real neuroscience dataset.
+This 2-hour, hands-on workshop is designed for researchers, students, and faculty who have a basic grasp of Python and are ready to tackle the "messy" side of data science. Transitioning from basic scripts to a professional local development workflow, we will use Positron—the new data science IDE from the creators of RStudio—to manage a complete analysis pipeline.
 
+Using a real-world neuroscience dataset (OASIS-1 MRI studies), you will learn the essential "verbs" of data manipulation:
+
+Wrangling: How to handle missing values, rename variables, and fix data types.
+
+Subsetting: Mastering .loc[] and bracket notation to isolate specific cohorts.
+
+Aggregating: Using groupby() to transform raw rows into publication-ready summaries.
+
+Visualizing: Creating distribution plots with seaborn to identify patterns at a glance.
+
+Research Goal: We will work toward answering a specific clinical question: Does normalized brain volume differ by dementia rating?
+
+Prerequisites: Completion of Python 1 or familiarity with basic loops, functions, and NumPy. Participants should have Python installed locally prior to the session.
 ---
 
 ## Learning Objectives
