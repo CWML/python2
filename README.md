@@ -6,17 +6,17 @@ This 2-hour, hands-on workshop is designed for researchers, students, and facult
 
 Using a real-world neuroscience dataset (OASIS-1 MRI studies), you will learn the essential "verbs" of data manipulation:
 
-Wrangling: How to handle missing values, rename variables, and fix data types.
+- Wrangling: How to handle missing values, rename variables, and fix data types.
 
-Subsetting: Mastering .loc[] and bracket notation to isolate specific cohorts.
+- Subsetting: Mastering .loc[] and bracket notation to isolate specific cohorts.
 
-Aggregating: Using groupby() to transform raw rows into publication-ready summaries.
+- Aggregating: Using groupby() to transform raw rows into publication-ready summaries.
 
-Visualizing: Creating distribution plots with seaborn to identify patterns at a glance.
+- Visualizing: Creating distribution plots with seaborn to identify patterns at a glance.
 
-Research Goal: We will work toward answering a specific clinical question: Does normalized brain volume differ by dementia rating?
+**Research Goal:** We will work toward answering a specific clinical question: Does normalized brain volume differ by dementia rating?
 
-Prerequisites: Completion of Python 1 or familiarity with basic loops, functions, and NumPy. Participants should have Python installed locally prior to the session.
+**Prerequisites:** Completion of [Python 1](https://github.com/CWML/Python1) or familiarity with basic loops, functions, and NumPy. Participants should have Python installed locally prior to the session.
 ---
 
 ## Learning Objectives
