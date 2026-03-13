@@ -1,4 +1,4 @@
-# Data to Decisions: Using pandas to Clean and Summarize Data (Python 2)
+# Cleaning and Summarizing Data with pandas (Python Part 2)
 
 **Cushing/Whitney Medical Library — Yale University**
 
@@ -10,7 +10,7 @@ A 2-hour hands on coding workshop for students, staff, researchers, and faculty.
 
 By the end of this session, learners will be able to:
 
-1. **Set up** a local Python development environment using Positron, a terminal, and a virtual environment
+1. **Establish** a reproducible research workflow by setting up a local environment with Positron and virtual environments.
 2. **Load** tabular data into a pandas DataFrame and inspect its structure using `info()`, `head()`, `describe()`, and related methods
 3. **Select** specific rows, columns, and subsets of data using bracket notation and `.loc[]`
 4. **Clean** a real-world dataset by handling missing values (`dropna()`, `fillna()`), renaming columns, dropping unnecessary columns, and converting data types
