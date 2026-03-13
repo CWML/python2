@@ -315,12 +315,11 @@ Cushing/Whitney Medical Library · Yale University
 
 | Time | Topic |
 |------|-------|
-| 10 min | Environment orientation & dataset introduction |
-| 35 min | **Intro to pandas**: loading, inspecting, selecting |
-| 40 min | **Data cleaning & transformation** |
-| 20 min | **Grouping & aggregation**: answering a research question |
-| 10 min | ✦ Bonus: seaborn visualization |
-| 5 min  | Wrap-up & resources |
+| 20 min | Conceptual overview (slides) |
+| 15 min | Live environment setup |
+| 70 min | Hands-on notebook: pandas, cleaning, groupby, seaborn |
+| 12 min | Script demo: `analysis.py` |
+| 3 min  | Wrap-up & resources |
 
 <div class="callout">
 <strong>Note:</strong> All code and this notebook will be shared after class. You don't need to keep up perfectly — focus on understanding the concepts.
@@ -397,14 +396,6 @@ By the end of today, you will be able to:
 
 ---
 
-<!-- _class: lead -->
-
-# Part 1
-
-## What Is Data Cleaning?
-
----
-
 # Defining Data Cleaning
 
 Data cleaning involves **identifying and correcting** dataset values that are:
@@ -469,14 +460,6 @@ In practice, you do both in the same workflow — often in the same function cal
 
 ---
 
-<!-- _class: lead -->
-
-# Part 2
-
-## Introduction to pandas
-
----
-
 # What Is pandas?
 
 - Open-source Python library, first released **2009**
@@ -502,6 +485,24 @@ In practice, you do both in the same workflow — often in the same function cal
 </ul>
 </div>
 </div>
+
+---
+
+<!-- _class: lead -->
+
+# Let's Set Up Your Environment
+
+## Open Positron and follow along
+
+*Terminal → virtual environment → install packages → open notebook*
+
+---
+
+<!-- _class: lead -->
+
+# Reference Slides
+
+## Additional material for self-study
 
 ---
 
@@ -606,24 +607,6 @@ df.loc[df["CDR"] > 0, "CDR"] = 0.5  # safe and explicit
 
 ---
 
-<!-- _class: lead -->
-
-# Let's Code!
-
-## Open `python2_workshop.ipynb` in Positron
-
-*Run cells as we go — ask questions at any time*
-
----
-
-<!-- _class: lead -->
-
-# Part 3
-
-## Grouping & Aggregation
-
----
-
 <!-- _class: classroom -->
 
 # Split-Apply-Combine with `.groupby()`
@@ -657,14 +640,6 @@ result = groups["nWBV"].mean() # APPLY  — compute mean per group
 
 ---
 
-<!-- _class: lead -->
-
-# ✦ Bonus
-
-## Visualization with seaborn
-
----
-
 <!-- _class: classroom -->
 
 # Visualizing Results with seaborn
@@ -676,13 +651,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Box plot: distribution of brain volume by CDR group
-sns.boxplot(data=df_clinical, x="CDR", y="nWBV", palette="Blues")
+sns.boxplot(data=df_clinical, x="CDR", y="BrainVolume", palette="Blues")
 plt.title("Normalized Brain Volume by Dementia Rating (CDR)")
 plt.show()
 
 # Bar plot with confidence interval
-sns.barplot(data=df_clinical, x="CDR", y="nWBV",
-            order=[0, 0.5, 1, 2], palette="Blues_d")
+sns.barplot(data=df_clinical, x="CDR", y="BrainVolume",
+            order=["0.0", "0.5", "1.0", "2.0"], palette="Blues_d")
 ```
 
 | Chart | Use when |
@@ -690,14 +665,6 @@ sns.barplot(data=df_clinical, x="CDR", y="nWBV",
 | `boxplot` | Show distribution + outliers per group |
 | `barplot` | Show mean ± confidence interval per group |
 | `scatterplot` / `lmplot` | Relationship between two numeric variables |
-
----
-
-<!-- _class: lead -->
-
-# Wrap-up
-
-## What We Covered Today
 
 ---
 
