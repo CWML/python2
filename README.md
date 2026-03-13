@@ -1,4 +1,4 @@
-# Python 2: Data Analysis with pandas
+# Data to Decisions: Using pandas to Clean and Summarize Data (Python 2)
 
 **Cushing/Whitney Medical Library — Yale University**
 
