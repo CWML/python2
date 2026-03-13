@@ -2,7 +2,7 @@
 
 **Cushing/Whitney Medical Library — Yale University**
 
-A 2-hour live-coding workshop for students, staff, researchers, and faculty. This course builds directly on [Python 1](https://github.com/CWML/python1) and introduces local Python development, pandas for data analysis, and seaborn for visualization — using a real neuroscience dataset.
+A 2-hour hands on coding workshop for students, staff, researchers, and faculty. This course builds directly on [Python 1](https://github.com/CWML/python1) and introduces local Python development, pandas for data analysis, and seaborn for visualization — using a real neuroscience dataset.
 
 ---
 
