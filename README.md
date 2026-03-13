@@ -16,7 +16,7 @@ Using a real-world neuroscience dataset (OASIS-1 MRI studies), you will learn th
 
 **Research Goal:** We will work toward answering a specific clinical question: Does normalized brain volume differ by dementia rating?
 
-**Prerequisites:** Completion of [Python 1](https://github.com/CWML/Python1) or familiarity with basic loops, functions, and NumPy. Participants should have Python installed locally prior to the session.
+
 ---
 
 ## Learning Objectives
@@ -48,7 +48,7 @@ By the end of this session, learners will be able to:
 
 ## Prerequisites
 
-- Completion of Python 1 (or equivalent familiarity with Python basics, loops, functions, NumPy, and matplotlib)
+- Completion of [Python 1](https://github.com/CWML/Python1) (or equivalent familiarity with Python basics, loops, functions, NumPy, and matplotlib)
 - A local Python environment — see setup instructions below
 
 ---
