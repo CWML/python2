@@ -1,4 +1,4 @@
-#WIP Class materials
+# WIP Class materials
 # Cleaning and Summarizing Data with pandas (Python 2)
 
 Move beyond the basics and start analyzing real-world research data.
