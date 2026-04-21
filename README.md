@@ -45,36 +45,103 @@ By the end of this session, learners will be able to:
 
 ## Setup (Before the Workshop)
 
-### 1. Install Positron
+---
+
+### macOS
+
+#### 1. Install Xcode Command Line Tools
+
+Open **Terminal** and run:
+
+```bash
+xcode-select --install
+```
+
+A dialog will appear — click **Install** and wait for it to complete. This provides Git and other command-line utilities required for the steps below.
+
+#### 2. Install Python 3
+
+First, check whether Python 3 is already installed by running this in Terminal:
+
+```bash
+python3 --version
+```
+
+If you see a version number (e.g., `Python 3.11.4`), you can skip to step 3. If not, download and install Python 3 from [python.org/downloads](https://www.python.org/downloads/) and follow the prompts.
+
+#### 3. Install Positron
 
 Download and install [Positron](https://github.com/posit-dev/positron/releases) — a data science IDE built on VS Code.
 
-### 2. Clone this repository
+#### 4. Clone this repository
 
 ```bash
 git clone https://github.com/CWML/python2.git
 cd python2
 ```
 
-### 3. Create a virtual environment
+#### 5. Create a virtual environment
 
 ```bash
-# macOS/Linux
 python3 -m venv .venv
 source .venv/bin/activate
-
-# Windows
-python -m venv .venv
-.venv\Scripts\activate
 ```
 
-### 4. Install dependencies
+#### 6. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Open the notebook
+#### 7. Open the notebook
+
+Open `python2_workshop.ipynb` in Positron and select your `.venv` kernel.
+
+---
+
+### Windows
+
+#### 1. Install Python 3
+
+First, check whether Python 3 is already installed by running this in Command Prompt or PowerShell:
+
+```powershell
+python --version
+```
+
+If you see a version number (e.g., `Python 3.11.4`), you can skip to step 2. If not, download and install Python 3 from [python.org/downloads](https://www.python.org/downloads/). During installation, **check the box that says "Add Python to PATH"**.
+
+#### 2. Install Git
+
+Download and install Git from [git-scm.com](https://git-scm.com/downloads). Use the default options during installation.
+
+#### 3. Install Positron
+
+Download and install [Positron](https://github.com/posit-dev/positron/releases) — a data science IDE built on VS Code.
+
+#### 4. Clone this repository
+
+Open **Command Prompt** or **PowerShell** and run:
+
+```powershell
+git clone https://github.com/CWML/python2.git
+cd python2
+```
+
+#### 5. Create a virtual environment
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+#### 6. Install dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+#### 7. Open the notebook
 
 Open `python2_workshop.ipynb` in Positron and select your `.venv` kernel.
 
