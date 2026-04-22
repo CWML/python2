@@ -1,4 +1,3 @@
-# WIP Class materials
 # Cleaning and Summarizing Data with pandas (Python 2)
 
 Move beyond the basics and start analyzing real-world research data.
@@ -82,12 +81,19 @@ cd python2
 
 #### 5. Create a virtual environment
 
+A virtual environment is an isolated Python installation just for this project. This keeps the packages you install here from interfering with other Python projects on your computer.
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+- `python3 -m venv .venv` creates the virtual environment in a folder called `.venv`
+- `source .venv/bin/activate` activates it — your terminal prompt will change to show `(.venv)`, confirming it's active. You'll need to run this activation command each time you open a new terminal session.
+
 #### 6. Install dependencies
+
+With your virtual environment active, this installs all the Python packages this workshop requires (as listed in `requirements.txt`):
 
 ```bash
 pip install -r requirements.txt
@@ -184,16 +190,17 @@ The slide deck is available as:
 - **HTML** — open `docs/python2_workshop_slides.html` in any browser (recommended for presenting)
 - **PPTX** — open `docs/python2_workshop_slides.pptx` in PowerPoint or Google Slides
 
-To regenerate slides from the Markdown source after edits:
-```bash
-npm install          # first time only
-npx marp docs/python2_workshop_slides.md --html --pptx
-```
-
 ---
 
 ## Resources
 
+### General Python Documentation
+- Official Python docs: https://python.org 
+- Beginner guide: https://wiki.python.org/moin/BeginnersGuide
+- Python PEP8 style guide: https://peps.python.org/pep-0008/
+- Python Cheatsheet: https://www.pythoncheatsheet.org
+- [ A Whirlwind tour of Python](https://colab.research.google.com/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
+    - A Whirlwind Tour of Python is a fast-paced introduction to essential components of the Python language for researchers and developers who are already familiar with programming in another language.
 ### pandas
 - [pandas documentation](https://pandas.pydata.org/docs/)
 - [pandas 10-minute intro](https://pandas.pydata.org/docs/user_guide/10min.html)
@@ -201,11 +208,10 @@ npx marp docs/python2_workshop_slides.md --html --pptx
 
 ### seaborn
 - [seaborn tutorial](https://seaborn.pydata.org/tutorial.html)
-
-### Data Cleaning
-- [Data Organization in Spreadsheets — Broman & Woo (2018)](https://doi.org/10.1080/00031305.2017.1375989)
+- Seaborn Color Palettes - [PyData Tutorial](https://seaborn.pydata.org/tutorial/color_palettes.html)
 
 ### Yale
+- [Getting Started with Data Analysis & Visualization: Introduction to Python(Python 1)](https://github.com/CWML/Python1)
 - [CWML: Learn to Work with Data](https://library.medicine.yale.edu/research-data/learn-work-data)
 - [Python Data Science Handbook (free)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 

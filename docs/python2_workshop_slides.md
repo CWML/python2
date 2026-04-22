@@ -721,23 +721,23 @@ print(summary)
 
 <div class="cols">
 <div class="col">
-<div class="col-label">pandas & Python</div>
+<div class="col-label">pandas & seaborn</div>
 <ul>
   <li><a href="https://pandas.pydata.org/docs/">pandas documentation</a></li>
   <li><a href="https://pandas.pydata.org/docs/user_guide/10min.html">pandas 10-minute intro</a></li>
-  <li>pandas cheat sheet (DataCamp)</li>
-  <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> — free online</li>
-  <li>LinkedIn Learning: Python Data Analysis</li>
+  <li><a href="https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python">pandas cheat sheet (DataCamp)</a></li>
+  <li><a href="https://seaborn.pydata.org/tutorial.html">seaborn tutorial</a></li>
+  <li><a href="https://seaborn.pydata.org/tutorial/color_palettes.html">seaborn color palettes</a></li>
 </ul>
 </div>
 <div class="col">
-<div class="col-label">Yale & Dataset</div>
+<div class="col-label">Python & Yale</div>
 <ul>
+  <li><a href="https://python.org">python.org</a> — official docs</li>
+  <li><a href="https://www.pythoncheatsheet.org">Python Cheatsheet</a></li>
+  <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> — free</li>
+  <li><a href="https://github.com/CWML/Python1">Python 1 materials</a> (GitHub)</li>
   <li><a href="https://library.medicine.yale.edu/research-data/learn-work-data">CWML: Learn to Work with Data</a></li>
-  <li><a href="https://seaborn.pydata.org/tutorial.html">seaborn tutorial</a></li>
-  <li><a href="https://sites.wustl.edu/oasisbrains/">OASIS Brains</a> — dataset homepage</li>
-  <li>Wickham (2011) — Split-Apply-Combine, <em>JSS</em> 40(1)</li>
-  <li>Broman & Woo (2018) — Data Organization in Spreadsheets</li>
 </ul>
 </div>
 </div>
@@ -752,3 +752,5 @@ print(summary)
 
 Cushing/Whitney Medical Library · Yale University
 `library.medicine.yale.edu/research-data`
+
+![w:180 h:180](qr_code.png)
