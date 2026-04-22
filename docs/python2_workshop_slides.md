@@ -379,6 +379,38 @@ By the end of today, you will be able to:
 
 ---
 
+# What Is Positron?
+
+**A data science IDE built by [Posit](https://posit.co/) — the team behind RStudio**
+
+- Fork of **VS Code** — extensions, themes, and keybindings all carry over
+- Supports Python **and** R in the same environment
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px;">
+<div style="background:var(--gray-bg);border-radius:6px;padding:12px 16px;">
+<strong style="color:var(--yale-blue);">Variable Explorer</strong><br>
+Browse every live object in memory — name, type, value
+</div>
+<div style="background:var(--gray-bg);border-radius:6px;padding:12px 16px;">
+<strong style="color:var(--yale-blue);">Data Viewer</strong><br>
+Inspect DataFrames visually — no <code>print()</code> needed
+</div>
+<div style="background:var(--gray-bg);border-radius:6px;padding:12px 16px;">
+<strong style="color:var(--yale-blue);">Integrated Console</strong><br>
+Run code interactively, line-by-line, alongside the notebook
+</div>
+<div style="background:var(--gray-bg);border-radius:6px;padding:12px 16px;">
+<strong style="color:var(--yale-blue);">Plots Pane</strong><br>
+Inline chart output, persisted across runs
+</div>
+</div>
+
+<div class="callout" style="margin-top:16px;">
+If you've used <strong>RStudio</strong>, this layout will feel immediately familiar. If you've used <strong>VS Code</strong>, your extensions and keybindings carry over.
+</div>
+
+---
+
 # Today's Dataset: OASIS-1
 
 **Open Access Series of Imaging Studies** (`oasis_cross-sectional.csv`)
