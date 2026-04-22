@@ -1,6 +1,7 @@
 node_modules/
 venv/
 .venv/
+.CWMLPython2/
 __pycache__/
 *.pyc
 .DS_Store

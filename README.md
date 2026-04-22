@@ -84,12 +84,13 @@ cd python2
 A virtual environment is an isolated Python installation just for this project. This keeps the packages you install here from interfering with other Python projects on your computer.
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv .CWMLPython2
+source .CWMLPython2/bin/activate
 ```
 
-- `python3 -m venv .venv` creates the virtual environment in a folder called `.venv`
-- `source .venv/bin/activate` activates it — your terminal prompt will change to show `(.venv)`, confirming it's active. You'll need to run this activation command each time you open a new terminal session.
+- `python3 -m venv .CWMLPython2` creates the virtual environment in a folder called `.CWMLPython2`
+- The `.` prefix makes it a hidden folder — it won't appear in Finder by default, which keeps your project directory tidy. You can still see it with `ls -la` in the terminal.
+- `source .CWMLPython2/bin/activate` activates it — your terminal prompt will change to show `(.CWMLPython2)`, confirming it's active. You'll need to run this activation command each time you open a new terminal session.
 
 #### 6. Install dependencies
 
@@ -101,7 +102,7 @@ pip install -r requirements.txt
 
 #### 7. Open the notebook
 
-Open `python2_workshop.ipynb` in Positron and select your `.venv` kernel.
+Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel.
 
 ---
 
@@ -137,9 +138,11 @@ cd python2
 #### 5. Create a virtual environment
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\activate
+python -m venv .CWMLPython2
+.CWMLPython2\Scripts\activate
 ```
+
+- The `.` prefix makes it a hidden folder — it won't appear in File Explorer by default, which keeps your project directory tidy. You can still see it with `dir /a` in the command prompt.
 
 #### 6. Install dependencies
 
@@ -149,7 +152,7 @@ pip install -r requirements.txt
 
 #### 7. Open the notebook
 
-Open `python2_workshop.ipynb` in Positron and select your `.venv` kernel.
+Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel.
 
 ---
 
