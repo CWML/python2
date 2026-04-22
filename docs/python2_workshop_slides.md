@@ -405,7 +405,7 @@ Inline chart output, persisted across runs
 </div>
 </div>
 
-<div class="callout" style="margin-top:16px;">
+<div class="callout">
 If you've used <strong>RStudio</strong>, this layout will feel immediately familiar. If you've used <strong>VS Code</strong>, your extensions and keybindings carry over.
 </div>
 
