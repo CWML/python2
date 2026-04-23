@@ -2,7 +2,7 @@
 
 Move beyond the basics and start analyzing real-world research data.
 
-This 2-hour, hands-on workshop is designed for researchers, students, and faculty who have a basic grasp of Python and are ready to tackle the "messy" side of data science. Transitioning from basic scripts & notebooks to a professional local development workflow, we will use Positron—the new data science IDE from the creators of RStudio—to manage a complete analysis pipeline.
+This 2-hour, hands-on workshop is designed for researchers, students, and faculty who have a basic grasp of Python and are ready to tackle the "messy" side of data analysis. Transitioning from basic scripts & notebooks to a professional local development workflow, we will use Positron—the new data science IDE from the creators of RStudio—to manage a complete analysis pipeline.
 
 Using the OASIS-1 neuroscience dataset, we will work through the practical steps of transforming raw MRI demographics into research insights. By the end of the session, we will answer a specific clinical question: Does normalized brain volume differ by dementia rating?
 
