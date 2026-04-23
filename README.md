@@ -1,5 +1,5 @@
 # Cleaning and Summarizing Data with pandas (Python 2)
-
+# https://github.com/CWML/python2/
 Move beyond the basics and start analyzing real-world research data.
 
 This 2-hour, hands-on workshop is designed for researchers, students, and faculty who have a basic grasp of Python and are ready to tackle the "messy" side of data analysis. Transitioning from basic scripts & notebooks to a professional local development workflow, we will use Positron—the new data science IDE from the creators of RStudio—to manage a complete analysis pipeline.
