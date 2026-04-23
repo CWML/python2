@@ -216,7 +216,6 @@ The slide deck is available as:
 ### Yale
 - [Getting Started with Data Analysis & Visualization: Introduction to Python(Python 1)](https://github.com/CWML/Python1)
 - [CWML: Learn to Work with Data](https://library.medicine.yale.edu/research-data/learn-work-data)
-- [Python Data Science Handbook (free)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ---
 
