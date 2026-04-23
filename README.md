@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 #### 7. Open the notebook
 
-Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel.
+Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel. Then run the **Part 0** cells to verify your environment — the output should show `.CWMLPython2` in the executable path.
 
 ---
 
@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 #### 7. Open the notebook
 
-Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel.
+Open `python2_workshop.ipynb` in Positron and select your `.CWMLPython2` kernel. Then run the **Part 0** cells to verify your environment — the output should show `.CWMLPython2` in the executable path.
 
 ---
 
