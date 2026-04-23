@@ -309,6 +309,9 @@ style: |
 Cushing/Whitney Medical Library · Yale University
 *Building on Python 1 — moving from Google Colab to Positron on your local machine*
 
+Justin DeMayo · Systems & Application Specialist · justin.demayo@yale.edu
+Levi Dolan · Data Librarian for the Health Sciences · levi.dolan@yale.edu
+
 ---
 
 # Today's Agenda
